@@ -11,7 +11,7 @@ public class ServicoDeDepositoPix {
         cartao.depositar(valorDeposito);
 
 
-        return new Recibo(cartao.obterTitular(), "deposito", valorDeposito);
+        return new Recibo(cartao.getTitular(), "deposito", valorDeposito);
     }
 
 }

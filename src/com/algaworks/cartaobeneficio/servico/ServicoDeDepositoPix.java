@@ -1,7 +1,7 @@
 package com.algaworks.cartaobeneficio.servico;
 
-import com.algaworks.cartaobeneficio.Cartao;
-import com.algaworks.cartaobeneficio.Recibo;
+import com.algaworks.cartaobeneficio.dados.Cartao;
+import com.algaworks.cartaobeneficio.dados.Recibo;
 
 public class ServicoDeDepositoPix {
 

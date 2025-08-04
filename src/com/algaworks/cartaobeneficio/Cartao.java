@@ -8,22 +8,29 @@ public class Cartao {
     private String titular;
     private double saldo;
 
+    public Cartao(){
+
+    }
 
     public Cartao(String titular){
         this.titular = titular;
     }
 
-    public String obterTitular(){
+    public String getTitular(){
         return titular;
     }
 
-    public double obterSaldo(){
+    public void setTitular(String titular){
+        this.titular = titular;
+    }
+
+    public double getSaldo(){
         return saldo;
     }
 
     public void debitar(double valorDebito){
 
-        if(obterSaldo() < valorDebito){
+        if(getSaldo() < valorDebito){
             throw new RuntimeException("Saldo insuficiente para pagamento");
         }
         saldo -= valorDebito;

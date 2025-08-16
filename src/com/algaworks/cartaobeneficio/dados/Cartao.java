@@ -1,4 +1,4 @@
-package com.algaworks.cartaobeneficio;
+package com.algaworks.cartaobeneficio.dados;
 
 import java.io.Serializable;
 

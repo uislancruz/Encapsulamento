@@ -2,8 +2,8 @@ package com.algaworks.cartaobeneficio.agenda;
 
 public class Horario {
 
-    public int hora;
-    public int minuto;
+    private int hora;
+    private int minuto;
 
     public Horario(int hora, int minuto){
 

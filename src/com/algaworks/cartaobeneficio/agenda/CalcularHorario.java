@@ -11,9 +11,11 @@ public class CalcularHorario {
         if(hora > 24){
             hora = hora - 24;
         }
-        horario.setHora(hora);
 
-        return horario;
+//        horario.setHora(hora);
+//        return horario;
+
+        return new Horario(hora, horario.getMinuto());
     }
 
 }

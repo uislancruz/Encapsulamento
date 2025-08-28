@@ -6,7 +6,7 @@ public class CalcularHorario {
     }
 
     public static Horario somarDuasHoras(Horario horario){
-        int hora = horario.getHora() + 2;
+        int hora = horario.hora() + 2;
 
         if(hora > 24){
             hora = hora - 24;
@@ -15,7 +15,7 @@ public class CalcularHorario {
 //        horario.setHora(hora);
 //        return horario;
 
-        return new Horario(hora, horario.getMinuto());
+        return new Horario(hora, horario.minuto());
     }
 
 }

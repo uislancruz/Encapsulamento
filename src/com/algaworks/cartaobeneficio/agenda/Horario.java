@@ -15,6 +15,6 @@ public record Horario (int hora, int minuto){
     }
 
     public String formatar(){
-        return String.format("%d%h%dm", hora, minuto);
+        return String.format("%dh%dm", hora, minuto);
     }
 }

@@ -7,7 +7,7 @@ public class Agendamento {
 
 
     public Agendamento(Horario horario, String descricao) {
-        this.horario = new Horario(horario.getHora(),horario.getMinuto());
+        this.horario = new Horario(horario.hora(),horario.minuto());
         this.descricao = descricao;
     }
 
